@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OpenWeatherMonitor.Api/OpenWeatherMonitor.Api.csproj" />
+  <Project Path="OpenWeatherMonitor.Common/OpenWeatherMonitor.Common.csproj" />
+</Solution>
