@@ -2,7 +2,7 @@
 
 namespace OpenWeatherMonitor.Common;
 
-public class MainData
+public record MainData
 {
     [JsonPropertyName("temp")]
     public double Temp { get; set; } // Current temperature (Metric)

@@ -2,7 +2,7 @@
 
 namespace OpenWeatherMonitor.Common;
 
-public class SystemData
+public record SystemData
 {
     [JsonPropertyName("sunrise")]
     public long Sunrise { get; set; }

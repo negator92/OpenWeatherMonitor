@@ -2,7 +2,7 @@
 
 namespace OpenWeatherMonitor.Common;
 
-public class WindData
+public record WindData
 {
     [JsonPropertyName("speed")]
     public double Speed { get; set; } // In meters/sec (Metric)

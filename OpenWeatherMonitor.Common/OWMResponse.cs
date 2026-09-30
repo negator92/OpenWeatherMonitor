@@ -2,7 +2,7 @@
 
 namespace OpenWeatherMonitor.Common;
 
-public class OWMResponse
+public record OWMResponse
 {
     [JsonPropertyName("coord")]
     public Coord Coordinate { get; set; }

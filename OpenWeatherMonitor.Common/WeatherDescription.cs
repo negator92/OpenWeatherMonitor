@@ -2,7 +2,7 @@
 
 namespace OpenWeatherMonitor.Common;
 
-public class WeatherDescription
+public record WeatherDescription
 {
     [JsonPropertyName("description")]
     public string Description { get; set; }
